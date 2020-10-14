@@ -1,9 +1,9 @@
 import React from "react";
 
-import * as avatar from "../images/photo-avatar.png";
+import * as avatar from "../../images/photo-avatar.png";
 
-import Socials from "./aboutMe/Socials";
-import Info from "./aboutMe/Info";
+import Socials from "./Socials";
+import Info from "./Info";
 
 export default function AboutMe() {
   return (

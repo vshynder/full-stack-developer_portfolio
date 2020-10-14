@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import SidebarNav from "./SidebarNav";
-import AboutMe from "./AboutMe";
-import MySkills from "./MySkills";
+import AboutMe from "./aboutMe/AboutMe";
+import MySkills from "./mySkills/MySkills";
 
 const Sidebar = () => {
   const [isAboutMe, setIsAboutMe] = useState(true);
