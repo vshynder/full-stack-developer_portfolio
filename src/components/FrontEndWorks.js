@@ -1,14 +1,12 @@
 import React from "react";
 
-import examples from "./works";
-
-export default function FrontEndWorks() {
+export default function FrontEndWorks({ works }) {
   return (
     <div className="front-end">
-      {examples.frontEnd.map((work, index) => {
+      {works.map((work, index) => {
         return (
-          <div className="card">
-            <div>{work.title}</div>
+          <div key={index} className="card">
+            <div className="card__title">{work.title}</div>
             <img className="card__image" alt={work.title} src={work.image} />
             <p className="card__stack">{work.stack}</p>
           </div>

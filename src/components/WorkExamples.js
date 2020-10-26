@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import FrontEndWorks from "./FrontEndWorks";
-import BackEndWorks from "./BackEndWorks";
 
 import { motion } from "framer-motion";
 
@@ -9,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTv, faServer, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import "./works.scss";
+import examples from "./works";
 
 const variants = {
   open: { opacity: 1, y: 0 },
@@ -61,7 +61,7 @@ export default function WorkExamples() {
           icon={faTimes}
           size="2x"
         />
-        <FrontEndWorks />
+        <FrontEndWorks works={examples.frontEnd} />
       </motion.div>
       <motion.div
         className="works__back-end--open"
@@ -74,7 +74,7 @@ export default function WorkExamples() {
           icon={faTimes}
           size="2x"
         />
-        <BackEndWorks />
+        <FrontEndWorks works={examples.backEnd} />
       </motion.div>
     </div>
   );
