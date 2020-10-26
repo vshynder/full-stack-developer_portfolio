@@ -42,10 +42,10 @@
 
       &--focus {
         text-decoration: underline;
-        color: #76c4ff;
+        color: #6e93d6;
       }
       &:hover {
-        color: #76c4ff;
+        color: #6e93d6;
       }
     }
   }
@@ -89,8 +89,8 @@
       transition: 250ms;
 
       &:hover {
-        border: 1px solid #76c4ff;
-        color: #76c4ff;
+        border: 1px solid #6e93d6;
+        color: #6e93d6;
       }
     }
 
@@ -111,14 +111,6 @@
     }
   }
 }
-.works {
-  flex: 7;
-  background: #494949;
-
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
 
 .contact-svg {
   transition: 250ms;
@@ -127,6 +119,6 @@
 
   fill: white;
   &:hover {
-    fill: #76c4ff;
+    fill: #6e93d6;
   }
 }
