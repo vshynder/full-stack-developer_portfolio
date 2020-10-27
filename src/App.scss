@@ -17,12 +17,14 @@
 .sidebar {
   flex: 3;
   background: #363636;
+  max-height: 100vh;
 
   &__container {
-    padding: 20px 30px;
+    padding: 0 30px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    max-height: 100vh;
   }
 
   &__nav {
@@ -30,6 +32,7 @@
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
+    max-height: 10vh;
 
     &-item {
       cursor: pointer;
@@ -51,6 +54,8 @@
   }
 
   &__content {
+    max-height: 90vh;
+
     flex: 1;
     display: flex;
     flex-direction: column;

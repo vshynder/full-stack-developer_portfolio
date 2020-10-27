@@ -64,7 +64,7 @@ const frontEnd = [
     title: "Rock/Scissors/Paper Game",
     stack: "vanilla js, html, css",
     image: rspGame,
-    ulr: "https://vshynder.github.io/rock-scissors-paper/",
+    url: "https://vshynder.github.io/rock-scissors-paper/",
     code: "https://github.com/vshynder/rock-scissors-paper",
   },
 ];
